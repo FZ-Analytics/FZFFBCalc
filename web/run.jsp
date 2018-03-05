@@ -1,0 +1,1 @@
+<%=(new com.fz.ffbv3.service.run.FB2RunAlgo()).run(request, response, pageContext)%>
