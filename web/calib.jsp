@@ -229,7 +229,7 @@
             } 
 
         // get remaining Bin
-            sql = "select remainingBin from fbreminBin"
+            sql = "select remainingBin from fbremainBin"
                 + " where runID = '" + runID + "'";
             logIt(cx, "Getting remaining BIn / Trip: " + sql);
             int lastOrderCount = 0;
